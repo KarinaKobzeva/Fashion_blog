@@ -18,6 +18,10 @@
 .navigation_section {
     display: flex;
     justify-content: space-between;
+    width: 1760px;
+    height: 32px;
+    margin: 0 0 34px 0;
+    padding: 0 0 0 0;
         
 }
 h1 {
@@ -51,6 +55,7 @@ h1 {
         display: block;
         margin: 0;
         padding: 0;
+        float: right;
     }
     .menu_section {
         padding: 1em;
