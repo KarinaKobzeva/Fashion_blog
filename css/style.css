@@ -7,12 +7,18 @@
     font-weight: 400;
     font-style: normal;
   }
+  html{
+    overflow-x:hidden;
+  }
   body {
     background-color: #FFFFFF;
-    max-width: 100%;
+    
     font-family: PT Serif;
     margin-left: 0;
     margin-right: 0;
+    min-height: 100vh;
+  width: 1920px;
+   
         
 }
 .navigation_section {
@@ -1330,7 +1336,7 @@ h1 {
     .footer_section {
         width: 1170px;
         height: 261px;
-        margin: 100px 0 0 375px;
+        margin: 100px 0 30px 375px;
         padding: 0 0 0 0;
         background-color: rgb(255, 255, 255);
     }
@@ -1450,3 +1456,4 @@ h1 {
     margin: 30px 0 0 476px;
     padding: 0 0 0 0;
 }
+
